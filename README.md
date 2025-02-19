@@ -1,10 +1,10 @@
 # 📊 TextAnalyzer
 **TextAnalyzer** is an interactive web tool that allows users to analyze text in real-time. It provides statistics such as the number of characters, words, sentences, and the density of the most used letters. Additional features include character limit customization and a light/dark mode toggle.
 
-## 🚀 Demo  
-![Screenshot 1](./assets/screenshots/screenshot1.png)
-![Screenshot 2](./assets/screenshots/screenshot2.png)
-![Screenshot 3](./assets/screenshots/screenshot3.png)
+## 🖼️ Preview 
+<div align="center">
+  <img src="./assets/screenshots/screenshot3.png" alt="Screenshot 3" width="700"/>
+</div>
 
 ## 🛠️ Built With
 - **HTML**  
@@ -18,6 +18,7 @@
 - Estimated reading time.  
 - Customizable character limit.  
 - Light/Dark mode toggle.
+- Fully responsive design.
 
 ## 📁 Installation  
 1. Clone the repository:  
