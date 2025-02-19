@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A real-time character counter with word, sentence count, and letter density analysis.">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+    <title>Character counter</title>
+</head>
+<body id="body">
+    <header class="nav__container">
+        <nav>
+            <ul class="nav__list">
+                <li class="nav__item feature--container">
+                    <span class="item item--logo">
+                        <span class="item__logo circle--left"></span>
+                        <span class="item__logo circle--right"></span>
+                    </span>
+                    <h1 class="item item--mark">Character Counter</h1>
+                </li>
+                <li class="nav__item palet--container">
+                    <button class="item item--palet" id="palet">☼</button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="body__container">
+        <section class="body___item tittle--container">
+            <h2>Analyze your text in real-time.</h2>
+        </section>
+
+        <section class="body___item input--container">
+            <textarea id="text" class="item item--input" placeholder="Type your text here..."></textarea>
+        </section>
+
+        <section class="body___item options--container">
+            <div class="container__space">
+                <input type="checkbox" id="space" class="item option--space">
+                <label for="space">Exclude Spaces</label>
+            </div>
+
+            <div class="container__limit">
+                <input type="checkbox" id="limit" class="item option--limit">
+                <label for="limit">Set Character Limit</label>
+                <input type="number" min="1" id="n-limit" hidden>
+            </div>
+            
+            <p>Approx. reading time: &lt; <b id="seconds">0 seconds</b> </p>
+        </section>
+
+        <section class="body___item item--statistic-one">
+            <p class="text__statistic-one" id="Total_Characters">00</p>
+            <p class="text__statistic-one total--characters">Total Characters</p>
+        </section>
+
+        <section class="body___item item--statistic-two">
+            <p class="text__statistic-two" id="Word_Count">00</p> 
+            <p class="text__statistic-two word--count">Word Count</p>
+        </section>
+        
+        <section class="body___item item--statistic-trhee">
+            <p class="tex__statistic-trhee" id="Sentence_Count">00</p>  
+            <p class="tex__statistic-trhee sentence--count">Sentence Count</p>
+        </section>
+
+        <section class="body___item item--statistic-four">
+            <p>Letter Density</p>
+            <p id="default-message"> No characters found. Start typing to see letter density.</p>
+            <ul id="letter-density" class="statistic__list" hidden>
+                <li class="statistic__list__item item--one">
+                    <p id="letter--1" class="percentage--one">E</p>
+                    <div class="percentage--bar">
+                        <div id="bar--percentage--1" class="percentage--bar advance--one"></div>
+                    </div>
+                    <p id="percentage--1" class="percentage--one">40(16.06%)</p>
+                </li>
+
+                <li class="statistic__list__item item--two">
+                    <p id="letter--2" class="percentage--two">I</p>
+                    <div class="percentage--bar">
+                        <div id="bar--percentage--2" class="percentage--bar advance--two"></div>
+                    </div>
+                    <p id="percentage--2" class="percentage--two">40(16.06%)</p>
+                </li>
+
+                <li class="statistic__list__item item--three">
+                    <p id="letter--3" class="percentage--three">T</p>
+                    <div class="percentage--bar">
+                        <div id="bar--percentage--3" class="percentage--bar advance--three"></div>
+                    </div>
+                    <p id="percentage--3" class="percentage--three">40(16.06%)</p>
+                </li>
+
+                <li class="statistic__list__item item--four">
+                    <p id="letter--4" class="percentage--four">O</p>
+                    <div class="percentage--bar" >
+                        <div id="bar--percentage--4" class="percentage--bar advance--four"></div>
+                    </div>
+                    <p id="percentage--4" class="percentage--four">40(16.06%)</p>
+                </li>
+
+                <li class="statistic__list__item item--five">
+                    <p id="letter--5" class="percentage--five">N</p>
+                    <div class="percentage--bar">
+                        <div id="bar--percentage--5" class="percentage--bar advance--five"></div>
+                    </div>
+                    <p id="percentage--5" class="percentage--five">40(16.06%)</p>
+                </li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
