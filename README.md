@@ -27,9 +27,6 @@
    ```
 2. Open the `index.html` file in your browser.
 
-## 🧾 License
-This project is licensed under the MIT License. Feel free to use, modify, and share it.
-
 ## ⚠️ Disclaimer
 This project was inspired by a challenge from Frontend Mentor. The current implementation was created from scratch using only the challenge’s visual guidelines as a reference. You can view the original challenge [https://www.frontendmentor.io/challenges/character-counter-znSgeWs_i6](#).
 
