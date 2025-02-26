@@ -7,7 +7,7 @@ You can try the application live on **GitHub Pages**:
 
 ## 🖼️ Preview 
 <div align="center">
-  <img src="./assets/screenshots/screenshot3.png" alt="Screenshot 3" width="700"/>
+  <img src="./assets/screenshots/screenshot4.png" alt="Screenshot 3" width="700"/>
 </div>
 
 ## 🛠️ Built With
