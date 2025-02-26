@@ -1,6 +1,10 @@
 # 📊 TextAnalyzer
 **TextAnalyzer** is an interactive web tool that allows users to analyze text in real-time. It provides statistics such as the number of characters, words, sentences, and the density of the most used letters. Additional features include character limit customization and a light/dark mode toggle.
 
+## 🚀 Live Demo  
+You can try the application live on **GitHub Pages**:  
+🔗 [Text Analizer](https://bricafio.github.io/TextAnalyzer/)  
+
 ## 🖼️ Preview 
 <div align="center">
   <img src="./assets/screenshots/screenshot3.png" alt="Screenshot 3" width="700"/>
